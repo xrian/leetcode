@@ -1,4 +1,4 @@
-package com.sukdao;
+package com.sukdao.leetcode;
 
 public class Main {
 
