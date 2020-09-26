@@ -13,7 +13,7 @@ public class ListNodeUtils {
      * @param arr
      * @return
      */
-    public ListNode arrayToListNode(Integer[] arr) {
+    public static ListNode arrayToListNode(Integer[] arr) {
         ListNode node = new ListNode(-1);
         ListNode next = node;
         for (int i : arr) {
@@ -29,7 +29,7 @@ public class ListNodeUtils {
      *
      * @param head
      */
-    public void print(ListNode head) {
+    public static void print(ListNode head) {
         ListNode node = head;
         while (node != null) {
             System.out.println(node.val);
@@ -42,7 +42,7 @@ public class ListNodeUtils {
      *
      * @return
      */
-    public ListNode generatorRepeatOrderly() {
+    public static ListNode generatorRepeatOrderly() {
         Integer[] integers = {1, 1, 1, 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 7, 7, 7, 8, 9, 9, 9, 9, 10, 11};
         return arrayToListNode(integers);
     }
@@ -52,7 +52,7 @@ public class ListNodeUtils {
      *
      * @return
      */
-    public ListNode generatorRepeatUnOrderly() {
+    public static ListNode generatorRepeatUnOrderly() {
         Integer[] integers = {1, 3, 4, 1, 1, 2, 5, 7, 8, 9, 1, 3, 9, 2, 5, 6, 7, 7, 4, 4, 5, 9, 9, 10, 11};
         return arrayToListNode(integers);
     }
@@ -62,7 +62,7 @@ public class ListNodeUtils {
      *
      * @return
      */
-    public ListNode generatorOrderly() {
+    public static ListNode generatorOrderly() {
         Integer[] integers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         return arrayToListNode(integers);
     }
@@ -72,7 +72,7 @@ public class ListNodeUtils {
      *
      * @return
      */
-    public ListNode generatorUnOrderly() {
+    public static ListNode generatorUnOrderly() {
         Integer[] integers = {1, 5, 9, 7, 3, 0, 9, 10, 8, 2};
         return arrayToListNode(integers);
     }
