@@ -10,7 +10,9 @@ public class CountAndSay {
 
 
     // 	题解1  1 ms	36.1 MB
+    
     String[] list;
+
     private String loop(int n) {
         if (list[n - 1] == null) {
             StringBuffer str = new StringBuffer();

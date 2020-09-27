@@ -11,7 +11,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class CQueue {
+public class YongLiangGeZhanShiXianDuiLieLcof {
 
     // 题解1,  401 ms	47.4 MB
 //    Stack<Integer> a = new Stack<>();
@@ -73,7 +73,7 @@ public class CQueue {
     Deque<Integer> a = new LinkedList<>();
     Deque<Integer> b = new LinkedList<>();
 
-    public CQueue() {
+    public YongLiangGeZhanShiXianDuiLieLcof() {
 
     }
 

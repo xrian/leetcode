@@ -8,7 +8,7 @@ package com.sukdao.leetcode;
 
 import com.sukdao.leetcode.entity.ListNode;
 
-public class DeleteNode {
+public class DeleteNodeInALinkedList {
 
     // 题解1 	0 ms	38.4 MB
     // 将下一个节点的值赋值给当前节点,不断循环,然后丢弃最后个元素

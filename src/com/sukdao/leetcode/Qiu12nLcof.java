@@ -7,7 +7,7 @@
  */
 package com.sukdao.leetcode;
 
-public class SumNums {
+public class Qiu12nLcof {
 
     // 题解1 0 ms	36.4 MB
 
@@ -23,7 +23,7 @@ public class SumNums {
     }
 
     public static void main(String[] args) {
-        SumNums sumNums = new SumNums();
+        Qiu12nLcof sumNums = new Qiu12nLcof();
         System.out.println(sumNums.sumNums(3));
         System.out.println(sumNums.sumNums(9));
     }

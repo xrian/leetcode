@@ -9,7 +9,7 @@ package com.sukdao.leetcode;
 import com.sukdao.leetcode.entity.ListNode;
 import com.sukdao.leetcode.util.ListNodeUtils;
 
-public class RemoveNthFromEnd {
+public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode slow = head;
         ListNode fast = head;
@@ -34,7 +34,7 @@ public class RemoveNthFromEnd {
     public static void main(String[] args) {
         ListNode listNode = ListNodeUtils.generatorOrderly();
         ListNodeUtils.print(listNode);
-        RemoveNthFromEnd removeNthFromEnd = new RemoveNthFromEnd();
+        RemoveNthNodeFromEndOfList removeNthFromEnd = new RemoveNthNodeFromEndOfList();
         listNode = removeNthFromEnd.removeNthFromEnd(listNode, 10);
         System.out.println("---------------------");
         ListNodeUtils.print(listNode);
